@@ -1,11 +1,11 @@
 #Pocket Museum
 
-## What is it?
-I built a small demo application for saving a gallery of your favorite artworks to familiarize myself with creating a single page app using Backbone.js and Rails.  
+## What is Pocket Museum?
+A small demo application I built for saving a gallery of your favorite artworks.  Created so that I could familiarize myself with single page app architecture using Backbone.js and Rails.  
 
 
 ## Demo
-[Check it out](#)
+[Check it out!](#)
 
 ##Set Up (Mac OS X)
 1. `brew install postgres`
@@ -24,8 +24,9 @@ password: passw0rd
 Login as that user to view some fat cats and start collecting your own.
 
 ## How It Works
-  * Users can upload images and information about artworks into the database
-  * Users can 
+  * Users can manage images and information about artworks into the database
+  * Users can edit their profiles
+  * Users can favorite artworks
   * Rails supports all server-side controllers
   * Backbone supports all the client-side 
 
