@@ -23,7 +23,7 @@ artworks = [
   },
   {
     artist: 'Bartholomeus van der Helst',
-    title: 'Fat Boy and Fat Cat. Portrait of Gerard Andriesz. ',
+    title: 'Fat Boy and Fat Cat. Portrait of Gerard Andriesz',
     date: '1975',
     img_url: "http://fatcatart.ru/wp-content/uploads/2014/07/Helst-Portret-van-Gerard-Andriesz-Bicker-cat-w.jpg",
     user_id: u.id,
