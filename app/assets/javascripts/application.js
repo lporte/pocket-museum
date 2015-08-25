@@ -24,6 +24,7 @@
 //= require_tree .
 //= require app
 //
+
 window.App = {
   Models: {},
   Collections: {},
