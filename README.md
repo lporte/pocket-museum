@@ -1,14 +1,13 @@
-Pocket Museum: A Backbone + Rails Demo
-====================================
+#Pocket Museum
 
-This is a simple Backbone + Rails application you can use for saving your favorite artworks.
+## What is it?
+I built a small demo application for saving a gallery of your favorite artworks to familiarize myself with creating a single page app using Backbone.js and Rails.  
 
-Schema
-Demo App
 
-Set Up (Mac OS X)
-----------
+## Demo
+[Check it out](#)
 
+##Set Up (Mac OS X)
 1. `brew install postgres`
 2. Install [Postgres.app](http://postgresapp.com/)
 3. run `bundle install`
@@ -16,22 +15,33 @@ Set Up (Mac OS X)
 5. run `rake db:create db:migrate`
 6. run `rake db:seed`
 
-The seed data contains a user with the following credentials:
+The seed data contains a few [Fat Cat Artworks](http://fatcatart.com) to get you started and a user with the following credentials:
 
 ```
 email:    admin@test.com
 password: passw0rd
 ```
-Login as that user to view some artwork.
+Login as that user to view some fat cats and start collecting your own.
 
-Did something break?
------------
+## How It Works
+  * Users can upload images and information about artworks into the database
+  * Users can 
+  * Rails supports all server-side controllers
+  * Backbone supports all the client-side 
 
-Please [let me know](https://github.com/lporte/pocket-museum) by filing an issue.
+## Resources:
+  * [HAML Docs](http://haml.info/)
+  * [Backbone Docs](http://backbonejs.org)
+  * [Rails Docs](http://guides.rubyonrails.org/)
+  * [Codeschool Backbone Tutorials](https://www.codeschool.com/courses/anatomy-of-backbone-js)
+  * [Developing Backbone.js Fundamentals e-book](http://addyosmani.github.io/backbone-fundamentals/#application-view)
+  * [Adding Backbone and Rails to an Existing App](http://blog.nickcox.me/2014/12/21/adding-backbone-js-to-an-existing-rails-app/) 
+
+## Questions
+Pocket Museum is completely open source, intended as a fun way to learn how to build a single page app with Backbone and Rails - if you have any questions or concerns please [let me know](https://github.com/lporte/pocket-museum) by filing an issue.  
 
 
 Ruby on Rails
--------------
 
 This application requires:
 
