@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %img{:src => @artwork.img_url} 
+
+%p
+  %b Artist:
+  = @artwork.artist
+%p
+  %b Title:
+  = @artwork.title
+%p
+  %b Date:
+  = @artwork.date
+%p
+  %b Description:
+  = @artwork.description
+
+= link_to 'Edit', edit_user_artwork_path(current_user, @artwork)
+\|
+= link_to 'Back', user_artworks_path
