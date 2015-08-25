@@ -1,6 +1,6 @@
 %h1 Pocket Museum 
 
-.featured-albums.panel
+.featured-artworks.panel
   %h3 Featured Artworks
   %p.loading
     %span.text Loading featured artworks
@@ -12,7 +12,6 @@
     %th Title
     %th Artist
     %th Date
-    %th Description
     %th Image
     %th 
     %th 
@@ -24,11 +23,9 @@
       %td= artwork.title
       %td= artwork.artist
       %td= artwork.date
-      %td= artwork.description
       %td 
         %a{:href => user_artwork_path(current_user, artwork)}
           %img{:src =>artwork.img_url} 
-      / # %td= link_to 'Show', user_artwork_path(current_user, artwork)
       %td= link_to 'Edit', edit_user_artwork_path(current_user, artwork)
       %td= link_to 'Destroy', user_artwork_path(current_user, artwork), :method => :delete, :data => { :confirm => 'Are you sure you want to delete this?' }
 
