@@ -28,7 +28,7 @@ end
 
 def update
   @artwork.update(artwork_params)
-  respond_with(@artwork)
+  redirect_to user_artworks_path(params[:user_id])
 end
 
 def destroy
