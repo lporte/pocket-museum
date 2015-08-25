@@ -1,3 +1,5 @@
-%a{ href: "users/#{user_id}/artworks/#{id}" }
-  = title
+%a{ href: "artworks/#{id}" }
+  %img{ src: "#{img_url}" }
+%p 
+  #{title}
 %button.unfeature Unfeature&nbsp;&times;
