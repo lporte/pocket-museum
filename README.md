@@ -5,6 +5,7 @@ A small demo application I built for saving a gallery of your favorite artworks.
 
 ## Demo
 [Check it out!](https://aqueous-tundra-7700.herokuapp.com/)
+[Watch the screencast](https://vimeo.com/137320101)  
 
 ##Set Up (Mac OS X)
 1. `brew install postgres`
@@ -28,7 +29,7 @@ Login as that user to view some fat cats and start collecting your own.
   * Users can favorite artworks
   * Users can appreciate renaissance cats
   * Rails supports all server-side controllers
-  * Backbone supports all the client-side 
+  * Backbone supports all the client-side responsibility
 
 ## Resources:
   * [HAML Docs](http://haml.info/)
