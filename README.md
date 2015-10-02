@@ -4,7 +4,8 @@
 A small demo application I built for saving a gallery of your favorite artworks.  Basic project for learning single page app architecture using Backbone.js and Rails.  
 
 ## Demo
-[Check it out!](https://aqueous-tundra-7700.herokuapp.com/)
+[Check it out!](https://pocketmusem.herokuapp.com/)
+
 [Watch the screencast](https://vimeo.com/137320101)  
 
 ##Set Up (Mac OS X)
